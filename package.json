@@ -1,0 +1,19 @@
+{
+  "name": "mercury",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/thiagowaib/mercury.git",
+  "author": "thiagowaib <thiagowaib@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "ytdl-core": "^4.11.2"
+  }
+}
