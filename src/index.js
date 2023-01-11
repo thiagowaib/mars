@@ -56,7 +56,7 @@ const initServer = () => {
             const randKey = Date.now()
         
             // If it's a video file (mp4)
-            if(format.toLowerCase === "mp4") {
+            if(format.toLowerCase() === "mp4") {
                 // Configures the response header and sends it with the attached file
                 res.header("Content-Disposition", `attachment; filename="video-${randKey}.mp4"`)
                 return ytdl(url, {filter: 'audioandvideo', quality: 'highest'}).pipe(res);
